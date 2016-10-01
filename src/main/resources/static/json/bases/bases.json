@@ -659,6 +659,94 @@
       "thirdPlace": 1,
       "color": "",
       "faction": "Tornados"
+    },
+    {
+      "id": "base_61",
+      "name": "Neutral Space",
+      "description": "Minions here are not affected by other players' minions here",
+      "breakPoint": 18,
+      "firstPlace": 3,
+      "secondPlace": 2,
+      "thirdPlace": 1,
+      "color": "",
+      "faction": "Star Roamers"
+    },
+    {
+      "id": "base_62",
+      "name": "USS Undertaking",
+      "description": "At the start of your turn, you may move one of your minions to here, or from here to another base",
+      "breakPoint": 22,
+      "firstPlace": 4,
+      "secondPlace": 2,
+      "thirdPlace": 1,
+      "color": "",
+      "faction": "Star Roamers"
+    },
+    {
+      "id": "base_63",
+      "name": "Changing Room",
+      "description": "After a minion here uses a talent, it gains +1 power until the end of the turn",
+      "breakPoint": 22,
+      "firstPlace": 5,
+      "secondPlace": 3,
+      "thirdPlace": 2,
+      "color": "",
+      "faction": "Changerbots"
+    },
+    {
+      "id": "base_64",
+      "name": "Unicrave",
+      "description": "Before this base scores, replace it with the top card of the base deck. Keep all cards on it, discard this card, and keep scoring",
+      "breakPoint": 19,
+      "firstPlace": 0,
+      "secondPlace": 0,
+      "thirdPlace": 0,
+      "color": "",
+      "faction": "Changerbots"
+    },
+    {
+      "id": "base_65",
+      "name": "No-Moon",
+      "description": "Before this base scores, place a random other base and all cards on it in the discard pile. Replace it with the top card of the base deck",
+      "breakPoint": 25,
+      "firstPlace": 5,
+      "secondPlace": 3,
+      "thirdPlace": 3,
+      "color": "",
+      "faction": "Astroknights"
+    },
+    {
+      "id": "base_66",
+      "name": "Hive of Scum and Villainy",
+      "description": "After the first time each turn that you play an action that directly increases the power of one of your minions here, draw a card",
+      "breakPoint": 18,
+      "firstPlace": 4,
+      "secondPlace": 2,
+      "thirdPlace": 1,
+      "color": "",
+      "faction": "Astroknights"
+    },
+    {
+      "id": "base_67",
+      "name": "Wintersquashed",
+      "description": "After you play a minion here, you may give control of it to another player",
+      "breakPoint": 16,
+      "firstPlace": 2,
+      "secondPlace": 4,
+      "thirdPlace": 1,
+      "color": "",
+      "faction": "Ignobles"
+    },
+    {
+      "id": "base_68",
+      "name": "Spikey Chair Room",
+      "description": "At the end of any turn that a player has played at least one minion here, they may destroy a minion they own to draw a card",
+      "breakPoint": 20,
+      "firstPlace": 4,
+      "secondPlace": 2,
+      "thirdPlace": 1,
+      "color": "",
+      "faction": "Ignobles"
     }
   ]
 }

@@ -1,0 +1,89 @@
+{
+  "factionName": "Changerbots",
+  "factionId": 33,
+  "set": "CEASE_AND_DESIST",
+  "minions": [
+    {
+      "name": "Leader Two",
+      "description": "Talent: One of your other minions gains +2 power until the end of the turn",
+      "power": 6,
+      "quantity": 1
+    },
+    {
+      "name": "Solarshout",
+      "description": "Talent: Play an extra action. Give this minion -2 power until the end of the turn",
+      "power": 4,
+      "quantity": 2
+    },
+    {
+      "name": "Bruiser",
+      "description": "Ongoing: This minion cannot be destroyed. Talent: This minion gains +2 power and loses its Ongoing ability and all other abilities until the start of your next turn",
+      "power": 2,
+      "quantity": 3
+    },
+    {
+      "name": "Huffie",
+      "description": "Talent: Move this minion to another base and give it -1 power until the end of the turn",
+      "power": 3,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "The Touch",
+      "description": "Play on one of your minions. Ongoing: This minion has the ability: 'Talent: This minion gains +3 power and loses all other abilities until the end of the turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 2
+    },
+    {
+      "name": "Flighterizer",
+      "description": "Play on one of your minions. Ongoing: This minion has the ability: 'Talent: Move this minion to another base and give it -1 power until the end of the turn'",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    },
+    {
+      "name": "Change Up and Roll On",
+      "description": "Special: Before a base scores you may move any number of your minions to there. They each get -1 power until the end of the turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Cesium Armor",
+      "description": "Play on a minion. Ongoing: This minion has +1 power and cannot be destroyed",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    },
+    {
+      "name": "Change Into a Gun",
+      "description": "Play on one of your minions to destroy a minion of power 4 or less there. Ongoing: This minion has -2 power. Destroy this card at the start of your turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 2
+    },
+    {
+      "name": "Matrix of Bossiness",
+      "description": "Play on one of your minions. Ongoing: This minion's printed power is treated as if it were 5",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    },
+    {
+      "name": "Form Mergacon",
+      "description": "Choose a base. Each of your minions there gains +1 power until the end of the turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Passengers",
+      "description": "Play on a minion. Ongoing: This minion has the ability: 'Talent: If this minion moved this turn, move another one of your minions from the previous base to here",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    }
+  ]
+}

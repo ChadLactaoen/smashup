@@ -1,0 +1,125 @@
+{
+  "factionName": "Astroknights",
+  "factionId": 34,
+  "set": "CEASE_AND_DESIST",
+  "minions": [
+    {
+      "name": "Space Knight",
+      "description": "Talent: Reveal the top three cards of your deck. You may draw one action from the revealed cards. Return the rest in any order",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Space Prince",
+      "description": "Talent: Play an extra action that directly increases the power of one of your minions",
+      "power": 4,
+      "quantity": 1
+    },
+    {
+      "name": "Scoundrel",
+      "description": "Talent: Move this minion and another one of your minions here to another base",
+      "power": 4,
+      "quantity": 1
+    },
+    {
+      "name": "Walking Carpet",
+      "description": "Special: Before this base scores, if you are not winning, you may play an action that directly increases the power of this minion",
+      "power": 4,
+      "quantity": 1
+    },
+    {
+      "name": "Ghost Knight",
+      "description": "Ongoing: This minion cannot be destroyed. Your other minions here have +2 power",
+      "power": 0,
+      "quantity": 1
+    },
+    {
+      "name": "Annoying Alien",
+      "description": "Talent: Name a minion. All minions here with that name get -2 power until the start of your next turn",
+      "power": 2,
+      "quantity": 1
+    },
+    {
+      "name": "Alien Guru",
+      "description": "Ongoing: Once per turn, after you play an action that directly increases a minion's power, you may also place a +1 power counter on it",
+      "power": 2,
+      "quantity": 1
+    },
+    {
+      "name": "Astro Robot",
+      "description": "Destroy an action played on this base or on a minion here",
+      "power": 2,
+      "quantity": 1
+    },
+    {
+      "name": "Mannersbot",
+      "description": "Talent: Reveal the top card of your deck. If it is an action, draw it, otherwise return it",
+      "power": 2,
+      "quantity": 1
+    },
+    {
+      "name": "Pupoks",
+      "description": "Talent: Lose 1 VP to reveal the top three cards of your deck and draw them. You may play one of them as an extra card",
+      "power": 2,
+      "quantity": 1
+    }
+  ],
+  "actions": [
+    {
+      "name": "Laser Sword",
+      "description": "Play on a minion. Ongoing: This minion has +1 power and is not affected by other players' minions",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 2
+    },
+    {
+      "name": "Block the Probe",
+      "description": "Choose a minion. It gains +2 power until the end of the turn. Special: You may play this card before a base scores",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Use the Fours",
+      "description": "One of your minions gains +4 power until the end of the turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Yield to Rage",
+      "description": "One of your minions gains +2 power until the end of the turn. Play an extra action",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Recycle the Trash",
+      "description": "Shuffle up to two actions from your discard pile into your deck",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Hidden Base",
+      "description": "Play on a base. Ongoing: At the start of your turn, if you have a minion here, draw a card",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "It's a Trap!",
+      "description": "Special: Before a base scores, reveal cards from your deck until you reveal an action. You may draw it or play it immediately. Shuffle the unused cards into your deck",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Prepare for Battle",
+      "description": "Reveal the top two cards of your deck. Place one into your hand and the other on the bottom of your deck",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

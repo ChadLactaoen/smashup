@@ -1,0 +1,95 @@
+{
+  "factionName": "Star Roamers",
+  "factionId": 32,
+  "set": "CEASE_AND_DESIST",
+  "minions": [
+    {
+      "name": "Ship's Captain",
+      "description": "Search your deck for a minion, reveal it, add it to your hand and shuffle your deck. If it has power 3 or less, play it here as an extra minion",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Medical Officer",
+      "description": "Ongoing: If another one of your minions would be destroyed, you may return it to its owner's hand instead",
+      "power": 4,
+      "quantity": 1
+    },
+    {
+      "name": "Science Officer",
+      "description": "Talent: Return one of your minions of power 4 or less to its owner's hand. Play an extra minion with a different name",
+      "power": 4,
+      "quantity": 1
+    },
+    {
+      "name": "Ship's Engineer",
+      "description": "Ongoing: If another one of your minions would be returned to your hand, you may move it to another base instead",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "Ensign",
+      "description": "Ongoing: When an opponent plays a card that directly affects one of your other minions here, you may have it affect this minion instead",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Mass Teleport",
+      "description": "Each player returns one of their minions to its owner's hand",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Hyperspeed 10",
+      "description": "Choose a base. Move all minions from there to a single other base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Port Me Up",
+      "description": "Return one of your minions to its owner's hand. Special: You may play this after a base scores; the minion must be on the scoring base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Whiplash Maneuver",
+      "description": "Play on a base. Ongoing: If any of your minions on other bases would be returned to your hand, you may move them here instead",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Weird New Worlds",
+      "description": "Play the top base from the base deck. Play this card and an extra minion on it. Ongoing: When the next base scores, do not replace it; destroy this card",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Protector Fields",
+      "description": "Play on a base where you have a minion. Ongoing: Your minions here are not affected by other players' cards",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Teleport Error",
+      "description": "Choose a minion. Move it to another random base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Teleport Overflow",
+      "description": "Return one of your minions to its owner's hand. Reveal any number of minions witht the same name from your hand, and play them as extra minions",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

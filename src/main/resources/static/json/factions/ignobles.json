@@ -1,0 +1,89 @@
+{
+  "factionName": "Ignobles",
+  "factionId": 31,
+  "set": "CEASE_AND_DESIST",
+  "minions": [
+    {
+      "name": "Aunt of Drakes",
+      "description": "Talent: Give control of one of your minions to another player to draw another card and play an extra action",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Foot of the King",
+      "description": "Ongoing: At the end of your turn, you may take control of a minion you own",
+      "power": 4,
+      "quantity": 2
+    },
+    {
+      "name": "Bethrothed",
+      "description": "You may give control of this minion to another player. Ongoing: The owner of this minion gains 1 VP if another player wins this base and conrols this minion",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "Sneaky Squire",
+      "description": "You may give control of this minion to another player to play an extra minion",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Fate of the Favorites",
+      "description": "Each player destroys a minion they own",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Inevitable Betrayal",
+      "description": "Special: Before a base scores, take control of a minion you own there",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Out of Sight",
+      "description": "Each player returns a minion they own to their hand",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Banner Call",
+      "description": "Take control of any number of minions you own",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Red Birthday Party",
+      "description": "Destroy a minion you own and all minions with less power on the same base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Repaying Debts",
+      "description": "Give control of one of your minions to another player to draw two cards and play an extra minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Activate the Spy",
+      "description": "Take control of a minion you own. Play an extra action",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Hostage Exchange",
+      "description": "Give another player control of one of your minions to take control of one of their minions of equal or lesser power",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

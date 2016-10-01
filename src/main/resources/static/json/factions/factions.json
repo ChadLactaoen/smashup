@@ -7,10 +7,22 @@
       "minionPower": 2.8
     },
     {
+      "id": 34,
+      "name": "Astroknights",
+      "minionCount": 10,
+      "minionPower": 2.7
+    },
+    {
       "id": 2,
       "name": "Bear Cavalry",
       "minionCount": 10,
       "minionPower": 3.5
+    },
+    {
+      "id": 33,
+      "name": "Changerbots",
+      "minionCount": 10,
+      "minionPower": 3.2
     },
     {
       "id": 3,
@@ -53,6 +65,12 @@
       "name": "Giant Ants",
       "minionCount": 10,
       "minionPower": 1.3
+    },
+    {
+      "id": 31,
+      "name": "Ignobles",
+      "minionCount": 10,
+      "minionPower": 3
     },
     {
       "id": 10,
@@ -117,6 +135,12 @@
     {
       "id": 20,
       "name": "Sharks",
+      "minionCount": 10,
+      "minionPower": 3
+    },
+    {
+      "id": 32,
+      "name": "Star Roamers",
       "minionCount": 10,
       "minionPower": 3
     },

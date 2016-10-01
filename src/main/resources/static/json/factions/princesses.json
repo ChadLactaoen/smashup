@@ -1,0 +1,108 @@
+{
+  "factionName": "Princesses",
+  "factionId": 17,
+  "set": "PRETTY_PRETTY_SMASH_UP",
+  "minions": [
+    {
+      "name": "Apricot",
+      "description": "Talent: Destroy another player's minion of power 2 or less here",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Eliza",
+      "description": "Ongoing: Other players cannot play more than one extra card per turn",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Grizelda",
+      "description": "Talent: Place an Heirloom card from your discard pile into your hand",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Marie DeGraw",
+      "description": "Talent: Reveal the top card of your deck. If it is a minion, draw it. Otherwise, place it on the bottom of your deck",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Sleeping Beauty",
+      "description": "Ongoing: If this minion would go to the discard pile, shuffle it into your deck instead",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Snow White",
+      "description": "Talent: Move a minion from another base to here",
+      "power": 5,
+      "quantity": 1
+    }
+  ],
+  "actions": [
+    {
+      "name": "Heirloom",
+      "description": "Play on a minion. Ongoing: This card gives this minion +1 power for each Heirloom on it. This card cannot be destroyed",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 3
+    },
+    {
+      "name": "Direct to DVD Sequel",
+      "description": "Shuffle a minion from your discard pile into your deck and draw a card",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Skillet",
+      "description": "Destroy a minion of power 2 or less and draw a card",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "True Love's Kiss",
+      "description": "Move a minion to another base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Fairy Godmother",
+      "description": "Draw a card, OR one minion gets +2 power until the end of the turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Happily Ever After",
+      "description": "Play on a base. Ongoing: If you are the winner here when this base scores, gain 1 VP",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Some Day My Prince Will Come",
+      "description": "Special: Before a base scores, move a minion from there to another base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Tale as Old as Time",
+      "description": "Choose a base. Move all of your minions to it",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Woodland Helpers",
+      "description": "Play on a base. Ongoing: After you play an action, you may place it on the bottom of your deck instead of in your discard pile",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

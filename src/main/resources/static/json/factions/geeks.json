@@ -1,0 +1,96 @@
+{
+  "factionName": "Geeks",
+  "factionId": 7,
+  "set": "BIG_GEEKY_BOX",
+  "minions": [
+    {
+      "name": "Felicia Day",
+      "description": "Move all minions to this base",
+      "power": 4,
+      "quantity": 1
+    },
+    {
+      "name": "Wil Wheaton",
+      "description": "Special: You may play this minion when an opponent plays an action. Discard that action; it has no effect",
+      "power": 4,
+      "quantity": 1
+    },
+    {
+      "name": "Game Guru",
+      "description": "Ongoing: This minion is not affected by other players' abilities",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "Fan",
+      "description": "Special: On your turn, you may discard this card from your hand to draw a card",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Banned List",
+      "description": "For each other player, name a card and look at the player's hand. They must place any copies of that card from their hand on the bottom of their deck",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Rules Lawyer",
+      "description": "Transfer an action played on a base to another base, or transfer an action played on a minion to another minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Control Minion",
+      "description": "Choose a minion. You control that minion until the end of the turn. Special: Play when another player plays a minion. You gain control of that minion until the end of the turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Cosplay",
+      "description": "Special: Play when you gain 1 or more VP. Gain an additional 1 VP",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Force of Wil",
+      "description": "Special: Play when an opponent plays an action. Discard that action; it has no effect",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Griefer",
+      "description": "Choose one effect for each other player: That player discards a random card, or destroys one of his or her minions, or shuffles his or her discard pile into his or her deck",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Min-Maxing",
+      "description": "Look at an opponent's hand. You may play an action from that opponent's hand as an extra action",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Mulligan",
+      "description": "Look at the top 5 cards of your deck. You may draw them and shuffle the rest of your hand into your deck",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Non-Infinite Loop",
+      "description": "Choose an action in your hand. Play it as an extra action, then you may put it back into your hand instead of the discard pile",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

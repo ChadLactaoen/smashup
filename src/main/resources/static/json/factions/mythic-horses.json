@@ -1,0 +1,89 @@
+{
+  "factionName": "Mythic Horses",
+  "factionId": 14,
+  "set": "PRETTY_PRETTY_SMASH_UP",
+  "minions": [
+    {
+      "name": "Starlyte",
+      "description": "Ongoing: This minion has +1 power for each of your other minions here",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Rainbow",
+      "description": "Talent: If you have played another minion here, draw a card",
+      "power": 4,
+      "quantity": 2
+    },
+    {
+      "name": "Seastar",
+      "description": "If you play this minion on a base where you have another minion, you can play an extra minion this turn. Only use one Seastar's ability each turn",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "Pinkie",
+      "description": "Ongoing: While another of your minions is here, this minion has +1 power",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Encouragement Power",
+      "description": "Play on one of your minions. Ongoing: This minion has +1 power for each of your other minions here",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 2
+    },
+    {
+      "name": "Togetherness Power",
+      "description": "Play an extra minion at a base where you have a minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Adventure Power",
+      "description": "Choose a base. Move any number of your minions to it",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Freedom Power",
+      "description": "Destroy an action played on a minion or a base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Friendship Power",
+      "description": "Move one of your minions to a base where you have a minion. You may place this action into your hand instead of the discard pile",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Sharing Power",
+      "description": "Play on a base. Ongoing: At the start of your turn, if you have 2 or more minions here, draw a card",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Super Future Space Armor Power",
+      "description": "Each of your minions that is on a base with another of your minions gains +2 power until the end of the turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Teaching Power",
+      "description": "Special: Before a base scores, reveal one card from your deck for each of your minions there. Play one minion you reveal as an extra minion there. Return the rest of the cards to the top of the deck in any order",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

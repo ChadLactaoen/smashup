@@ -1,0 +1,89 @@
+{
+  "factionName": "Sharks",
+  "factionId": 20,
+  "set": "ITS_YOUR_FAULT",
+  "minions": [
+    {
+      "name": "Megalodon",
+      "description": "You may destroy a minion of power 4 or less here. Special: Before this base scores, you may destroy a minion here of power 3 or less",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Great White",
+      "description": "Talent: Move this minion to another base and destroy a minion there of power 2 or less",
+      "power": 4,
+      "quantity": 2
+    },
+    {
+      "name": "Hammerhead",
+      "description": "Ongoing: After a minion here is destroyed, place a +1 power counter on this minion",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "Mako",
+      "description": "Special: After you destroy a minion on any base, you may play this minion there as an extra minion",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Blood in the Water",
+      "description": "Play on a base. Ongoing: After a minion is destroyed here, you may play a minion here of power 3 or less as an extra minion",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Week of Sharks",
+      "description": "Play on a base. Ongoing: If you have a minion here, draw an extra card at the end of your turn. Only use one Week of Sharks ability each turn",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Air Jaws",
+      "description": "Move one of your minions to another base, then destroy a minion there of power 3 or less",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Chum",
+      "description": "Play on a minion. Ongoing: After a minion is destroyed, place a +1 power counter on this minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    },
+    {
+      "name": "Dangerous Waters",
+      "description": "Play on a base. Talent: Choose a minion here. It gets -2 power until the end of the turn",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Feeding Frenzy",
+      "description": "Choose a base. Destroy any number of minions there of power 2 or less",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Freakin' Laser Beam",
+      "description": "Choose one of your minions. Destroy a minion with equal or lower power at your minion's base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Torn Apart",
+      "description": "Destroy a minion of power 3 or less and draw a card",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

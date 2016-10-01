@@ -1,0 +1,89 @@
+{
+  "factionName": "Dragons",
+  "factionId": 5,
+  "set": "ITS_YOUR_FAULT",
+  "minions": [
+    {
+      "name": "Great Wyrm",
+      "description": "Ongoing: Other players here are awarded 1 less VP from this base when it scores",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Wyvern",
+      "description": "Destroy a minion here of power 3 or less. Talent: Reduce the breakpoint of this base by 3 until the end of the turn",
+      "power": 4,
+      "quantity": 2
+    },
+    {
+      "name": "Imperial Dragon",
+      "description": "Ongoing: After another player plays or moves a minion here, draw a card",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "Hatchling",
+      "description": "Ongoing: After another player plays or moves a minion here, it gets -1 power until the end of the turn",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bring Down the Walls",
+      "description": "Play on a base. Ongoing: Before this base scores, you may play a minion there",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Ruins",
+      "description": "Play on a base. Ongoing: Other players here are awarded 1 less VP from this base when it scores",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Burn It Down",
+      "description": "Destroy a base and any actions played on it. Replace it with the top card of the base deck or a base from the discard pile. All minions from the original base remain",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Dangerous Ground",
+      "description": "Play on a base. Ongoing: Other players must discard a card to play a minion here",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Dragon Lands",
+      "description": "Play on a base. Ongoing: Your minions here have +1 power. Special: Before a base scores, you may play this card there",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Intimidating Presence",
+      "description": "Play on a base. Ongoing: Other players' minions here have -1 power. Special: Before a base scores, you may play this card there",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Flank Attack",
+      "description": "Search your deck and/or discard pile for an action that can be played on a base and play it as an extra action. Shuffle your deck if you searched it",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Raze",
+      "description": "Play on a base. Ongoing: This base's ability is cancelled",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

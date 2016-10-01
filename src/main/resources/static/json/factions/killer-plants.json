@@ -1,0 +1,89 @@
+{
+  "factionName": "Killer Plants",
+  "factionId": 10,
+  "set": "AWESOME_LEVEL_9000",
+  "minions": [
+    {
+      "name": "Venus Man Trap",
+      "description": "Talent: Search your deck for a minion of power 2 or less and play it here as an extra minion. Shuffle your deck",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Weed Eater",
+      "description": "This minion has -2 power on the turn you play it",
+      "power": 5,
+      "quantity": 2
+    },
+    {
+      "name": "Water Lily",
+      "description": "Ongoing: Draw a card at the start of each of your turns. Only use one Water Lily's ability each turn",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "Sprout",
+      "description": "Ongoing: Destroy this card at the start of your turn. You may search your deck for a minion of power 3 or less, and play it here as an extra minion. Shuffle your deck",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Insta-Grow",
+      "description": "Play an extra minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Sleep Spores",
+      "description": "Play on a base. Ongoing: Other players' minions have -1 power here (minimum power 0)",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Blossom",
+      "description": "Play up to three extra minions that all have the same name",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Budding",
+      "description": "Choose a minion in play. Search your deck for a copy of that card and place it into your hand. Shuffle your deck",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Choking Vines",
+      "description": "Play on a minion. Ongoing: At the start of your turn, destroy this minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    },
+    {
+      "name": "Deep Roots",
+      "description": "Play on a base. Ongoing: Your minions here cannot be moved or returned to your hand by other players' abilities",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Entangled",
+      "description": "Play on a base. Ongoing: Minions may not be moved or returned to hands from any base where you have a minion. Destroy this card at the start of your turn",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Overgrowth",
+      "description": "Play on a base. Ongoing: At the start of your turn, reduce the breakpoint of this base to 0",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

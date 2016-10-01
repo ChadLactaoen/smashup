@@ -1,0 +1,89 @@
+{
+  "factionName": "Giant Ants",
+  "factionId": 9,
+  "set": "MONSTER_SMASH",
+  "minions": [
+    {
+      "name": "Killer Queen",
+      "description": "Talent: If you played another minion here this turn, place a +1 power counter on this minion and that minion",
+      "power": 4,
+      "quantity": 1
+    },
+    {
+      "name": "Drone",
+      "description": "Place a +1 power counter on this minion. Ongoing: Before one of your minions is destroyed, you may remove a +1 power counter from this minion to prevent the destruction",
+      "power": 3,
+      "quantity": 2
+    },
+    {
+      "name": "Soldier",
+      "description": "Place two +1 power counters on this minion. Talent: Transfer a +1 power counter from this minion to another minion",
+      "power": 1,
+      "quantity": 3
+    },
+    {
+      "name": "Worker",
+      "description": "Place two +1 power counters on this minion",
+      "power": 0,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Gimme the Prize",
+      "description": "Place a +1 power counter on up to 3 of your minions",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "We Will Rock You",
+      "description": "Each of your minions gains +1 power for each +1 power counter on it until the end of the turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "A Kind of Magic",
+      "description": "Transfer any or all of your +1 power counters among your minions",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Headlong",
+      "description": "Move one of your minions to another base. Place two +1 power counters on that minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "The Show Must Go On",
+      "description": "Play on a base. Ongoing: Your minions here with +1 power counters are not affected by other players' cards",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Under Pressure",
+      "description": "Special: Before a base scores, you may transfer any number of +1 power counters from one of your minions to another",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "We Are the Champions",
+      "description": "Special: After this base scores, transfer any or all +1 power counters from one of your minions there to another minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Who Wants to Live Forever?",
+      "description": "Remove any number of +1 power counters from your minions. Draw a card for each counter removed",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "factionName": "Vampires",
+  "factionId": 27,
+  "set": "MONSTER_SMASH",
+  "minions": [
+    {
+      "name": "The Count",
+      "description": "Ongoing: After another player's minion is destroyed, place a +1 power counter on this minion",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Nightstalker",
+      "description": "Destroy a minion of power 2 or less here to place a +1 power counter on this minion",
+      "power": 4,
+      "quantity": 2
+    },
+    {
+      "name": "Heavy Drinker",
+      "description": "You may destroy one of your minions to place a +1 power counter on this minion",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "Fledgling Vampire",
+      "description": "After you play this minion, if another player has more power here than you do, place a +1 power counter on this minion",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Crack of Dusk",
+      "description": "Play a minion of power 2 or less from your discard pile as an extra minion. Place a +1 power counter on it",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Dinner Date",
+      "description": "Place a +1 power counter on your minion. Destroy a minion of power 2 or less at that minion's base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Big Gulp",
+      "description": "Destroy a minion of power 4 or less",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Buffet",
+      "description": "Special: Play after a base scores. If you were the winner, place a +1 power counter on each of your minions",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Cull the Weak",
+      "description": "Choose your minion. Discard any number of minion cards from your hand. For each minion discarded, place a +1 power counter on that minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Mad Monster Party",
+      "description": "Place a +1 power counter on each of your minions that does not have one",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Opportunist",
+      "description": "Play on a minion. Ongoing: After another player's minion is destroyed, place a +1 power counter on this minion",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Summon Wolves",
+      "description": "Play on a base. Ongoing: At the start of your turn, place a +1 power counter on this card. If you have a minion here, counters on this card add to your power total",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

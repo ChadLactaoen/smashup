@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Smash Up</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/smashup.css" rel="stylesheet">
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav id="top-navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <span class="no-margin navbar-brand-custom">SMASH UP</span>
+        </div>
+        <div id="navbar">
+            <ul id="action-nav" class="nav navbar-nav navbar-left">
+                <button id="history-btn" type="button" class="hidden btn btn-default navbar-btn" data-target="#history-modal" data-toggle="modal">
+                    <span class="glyphicon glyphicon-time"></span> History
+                </button>
+                <button id="deck-count-btn" type="button" class="hidden btn btn-info navbar-btn">Check Deck Count</button>
+                <button id="search-deck-btn" type="button" class="hidden btn btn-info navbar-btn">Search Deck</button>
+                <button id="search-discard-btn" type="button" class="hidden btn btn-info navbar-btn">Search Discard</button>
+                <button id="random-discard-btn" type="button" class="hidden btn btn-info navbar-btn">Discard Random</button>
+                <button id="peek-btn" type="button" class="hidden btn btn-info navbar-btn">Peek Top of Deck</button>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <button id="new-game-btn" type="button" class="btn btn-success navbar-btn pull-right">New Game</button>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid main">
+    <!-- Fro is the selection screen -->
+    <div id="fro">
+        <div class="player-select-row row">
+            <div class="col-lg-4 col-md-4 col-lg-offset-2 col-md-offset-2">
+                <div class="panel panel-default player-select">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-6">
+                                <h2 class="no-margin">Player 1</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <img src="img/placeholder.png" class="img-circle" width="100" height="100" />
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <img src="img/placeholder.png" class="img-circle" width="100" height="100" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="panel panel-default player-select">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-6">
+                                <h2 class="no-margin">Player 2</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <img src="img/placeholder.png" class="img-circle" width="100" height="100" />
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <img src="img/placeholder.png" class="img-circle" width="100" height="100" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Confirm screen -->
+    <div id="confirm-screen" class="text-center" style="display:none"></div>
+    <!-- Game panel -->
+    <div id="game-panel" class="row" style="display:none">
+        <div id="hand-selection" class="col-lg-2 sidebar">
+            <div id="team-1" class="panel panel-default team-flag">
+                <div class="panel-body">
+                    <div class="team-name"></div>
+                    <div class="team-score"></div>
+                </div>
+            </div>
+            <h3 style="text-align:center;margin-top:-20px;margin-bottom:2px">vs</h3>
+            <div id="team-2" class="panel panel-default team-flag">
+                <div class="panel-body">
+                    <div class="team-name"></div>
+                    <div class="team-score"></div>
+                </div>
+            </div>
+            <div class="booper"></div>
+            <div id="in-play-list-wrapper">
+                <h2>In Play</h2>
+                <div id="in-play-list"></div>
+            </div>
+            <div id="peek-panel">
+                <h2>Peek</h2>
+                <div id="peek-list"></div>
+            </div>
+            <div id="deck-panel" mode="false">
+                <h2>Deck</h2>
+                <btn id="deck-exit-btn" type="button" class="btn btn-info pull-right">Exit</btn>
+                <div id="deck-list"></div>
+            </div>
+            <div id="discard-panel" mode="false">
+                <h2>Discard</h2>
+                <btn id="discard-exit-btn" type="button" class="btn btn-info pull-right">Exit</btn>
+                <div id="discard-list"></div>
+            </div>
+            <div id="hands-list">
+                <div id="hand-label">
+                    <h2>Hand</h2>
+                    <div id="hand-buttons" class="btn-group pull-right" role="group">
+                        <btn id="draw-btn" type="button" class="btn btn-info" current-player="1">Draw</btn>
+                        <btn id="switch-btn" type="button" class="btn btn-default" current-player="1">Switch</btn>
+                    </div>
+                </div>
+                <div class="hand-list" player="1"></div>
+                <div class="hand-list" player="2"></div>
+            </div>
+            <div id="action-list"></div>
+        </div>
+        <div id="tabletop" class="col-lg-10 col-lg-offset-2">
+            <div class="row player-row">
+                <div class="col-lg-4 col-md-4 top-player-row" player="1" base="1"></div>
+                <div class="col-lg-4 col-md-4 top-player-row" player="1" base="2"></div>
+                <div class="col-lg-4 col-md-4 top-player-row" player="1" base="3"></div>
+            </div>
+            <div class="row base-row">
+                <div class="col-lg-3 col-md-3">
+                    <div id="base-1" class="panel panel-default base-panel clickable-base" location="play" base="1">
+                        <div class="base-overlay"></div>
+                        <div class="panel-body">
+                            <div class="base-header">
+                                <span class="base-breakpoint"></span>
+                                <span class="base-name"></span>
+                            </div>
+                            <div class="base-rewards"></div>
+                            <div class="base-description"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-3 col-md-3">
+                    <div id="base-2" class="panel panel-default base-panel clickable-base" location="play" base="2">
+                        <div class="base-overlay"></div>
+                        <div class="panel-body">
+                            <div class="base-header">
+                                <span class="base-breakpoint"></span>
+                                <span class="base-name"></span>
+                            </div>
+                            <div class="base-rewards"></div>
+                            <div class="base-description"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-3 col-md-3">
+                    <div id="base-3" class="panel panel-default base-panel clickable-base" location="play" base="3">
+                        <div class="base-overlay"></div>
+                        <div class="panel-body">
+                            <div class="base-header">
+                                <span class="base-breakpoint"></span>
+                                <span class="base-name"></span>
+                            </div>
+                            <div class="base-rewards"></div>
+                            <div class="base-description"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-1"></div>
+            </div>
+            <div class="row player-row">
+                <div class="col-lg-4 col-md-4 bottom-player-row" player="2" base="1"></div>
+                <div class="col-lg-4 col-md-4 bottom-player-row" player="2" base="2"></div>
+                <div class="col-lg-4 col-md-4 bottom-player-row" player="2" base="3"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- History Modal -->
+    <div class="modal fade" id="history-modal" tabindex="-1" role="dialog" aria-labelledby="history">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="history">Game History</h3>
+                </div>
+                <div class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- History Modal -->
+    <div class="modal fade" id="base-modal" tabindex="-1" role="dialog" aria-labelledby="bases">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="bases">Available Bases</h3>
+                </div>
+                <div class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-2.2.3.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/initializer.js"></script>
+<script src="js/smashup-json-util.js"></script>
+<script src="js/smashup-util.js"></script>
+<script src="js/smashup-faction-select.js"></script>
+<script src="js/smashup-staging-render.js"></script>
+<script src="js/smashup.js"></script>
+</body>
+</html>

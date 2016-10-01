@@ -1,0 +1,95 @@
+{
+  "factionName": "Super Heroes",
+  "factionId": 22,
+  "set": "ITS_YOUR_FAULT",
+  "minions": [
+    {
+      "name": "Awesome Guy",
+      "description": "Ongoing: Your minions here cannot be destroyed by other players",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "The Burst",
+      "description": "Ongoing: After a minion is played on a base, you may move this minion to there",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Captain Amazing",
+      "description": "Talent: Give each of your minions here +1 power until the end of the turn",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Mind Lady",
+      "description": "Talent: Choose another player's minion. That minion's abilities are cancelled until the start of your next turn",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Mild Mannered Citizen",
+      "description": "Ongoing: At the start of your turn you may destroy this minion to search your deck for a minion of power 5 or more, play it here as an extra minion, and shuffle your deck",
+      "power": 2,
+      "quantity": 5
+    }
+  ],
+  "actions": [
+    {
+      "name": "Golden Age",
+      "description": "Place up to three minions from your discard pile on the bottom of your deck",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Justice Friends",
+      "description": "Each of your minions of power 5 or more gains +2 power until the end of the turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Not Really Dead",
+      "description": "Place up to two minions of power 2 or less from your discard pile into your hand",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Expanded Power",
+      "description": "Play on a minion. Ongoing: This minion has +1 power and can't be destroyed by other players",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    },
+    {
+      "name": "My Only Weakness",
+      "description": "Play on a minion. Ongoing: This minion's abilities are cancelled",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    },
+    {
+      "name": "Radioactive Exposure",
+      "description": "Destroy one of your minions to search your deck for a minion with more power, play it here as an extra minion, and shuffle your deck",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Secret Base",
+      "description": "Play on a base. Ongoing: Your minions here of power 3 or less cannot be destroyed by other players",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Sidekick",
+      "description": "Choose a base where you have a minion of power 5 or more. Play a minion there of power 2 or less as an extra minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

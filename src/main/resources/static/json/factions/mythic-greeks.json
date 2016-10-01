@@ -1,0 +1,109 @@
+{
+  "factionName": "Mythic Greeks",
+  "factionId": 13,
+  "set": "ITS_YOUR_FAULT",
+  "minions": [
+    {
+      "name": "Odysseus",
+      "description": "Ongoing: After you play an action, place a +1 power counter on one of your minions",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Heracles",
+      "description": "Ongoing: After any player plays an action, this minion gains +1 power until the end of the turn",
+      "power": 4,
+      "quantity": 1
+    },
+    {
+      "name": "Jason",
+      "description": "Ongoing: After the first time you play an action each turn, choose a base. All of your minions there gain +1 power until the end of the turn",
+      "power": 4,
+      "quantity": 1
+    },
+    {
+      "name": "Spartan",
+      "description": "Ongoing: Place a +1 power counter on this minion after the first time you play an action on your turn",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "Argonaut",
+      "description": "Trigger all abilities that would trigger from playing an action. Special: Any time you can play an action, you can play this card instead",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Favor of Aphrodite",
+      "description": "Play an extra minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Favor of Apollo",
+      "description": "Draw a card and play an extra action",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Favor of Ares",
+      "description": "One of your minions gains +3 power until the end of the turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Favor of Athena",
+      "description": "Reveal the top 5 cards of your deck. You may place one of the revealed actions into your hand, and return the rest to the top of your deck in any order",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Favor of Dionysus",
+      "description": "One of your minions gains +1 power until the end of the turn. Play an extra action. You may place this card on top of your deck instead of the discard pile",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Favor of Hades",
+      "description": "Place an action card from your discard pile into your hand",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Favor of Hera",
+      "description": "Place a +1 power counter on up to two of your minions",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Favor of Hermes",
+      "description": "Play two extra actions",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Favor of Poseidon",
+      "description": "Shuffle up to three cards from your discard pile into your deck",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Favor of Zeus",
+      "description": "Reduce the breakpoint of a base by 5 until the end of the turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

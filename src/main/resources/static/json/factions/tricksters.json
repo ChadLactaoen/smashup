@@ -1,0 +1,89 @@
+{
+  "factionName": "Tricksters",
+  "factionId": 26,
+  "set": "CORE",
+  "minions": [
+    {
+      "name": "Leprechaun",
+      "description": "Ongoing: After another player plays a minion here with less power than this minion's power, destroy it (resolve its ability first)",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Brownie",
+      "description": "Ongoing: After another player plays a card that affects this minion, that player discards two random cards",
+      "power": 4,
+      "quantity": 2
+    },
+    {
+      "name": "Gnome",
+      "description": "You may destroy a minion on this base with power less than the number of minions you have here",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "Gremlin",
+      "description": "Ongoing: After this minion is destroyed, draw a card and each other player discards a random card",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Disenchant",
+      "description": "Destroy an action that has been played on a minion or base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Enshrouding Mist",
+      "description": "Play on a base. Ongoing: On your turn, you may play an extra minion here",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Block the Path",
+      "description": "Play on a base and name a faction. Ongoing: Minions of that faction cannot be played here",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Flame Trap",
+      "description": "Play on a base. Ongoing: After another player plays a minion here, destroy it (resolve its ability first) and this card",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Hideout",
+      "description": "Play on a base. Ongoing: If another player's action would affect your minions here, destroy this card and the action does not affect your minions",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Mark of Sleep",
+      "description": "Choose a player. That player cannot play actions on his or her next turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Pay the Piper",
+      "description": "Play on a base. Ongoing: After another player plays a minion here, that player discards a card",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Take the Shinies",
+      "description": "Each other player discards two random cards",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

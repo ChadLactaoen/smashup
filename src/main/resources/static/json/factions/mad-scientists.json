@@ -1,0 +1,89 @@
+{
+  "factionName": "Mad Scientists",
+  "factionId": 12,
+  "set": "MONSTER_SMASH",
+  "minions": [
+    {
+      "name": "Herr Doktor",
+      "description": "Talent: Place a +1 power counter on another one of your minions",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "The Monster",
+      "description": "Talent: Remove a +1 power counter from this minion to play an extra minion",
+      "power": 4,
+      "quantity": 2
+    },
+    {
+      "name": "Lab Assistant",
+      "description": "Place a +1 power counter on another one of your minions",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "Igor",
+      "description": "Ongoing: After this minion is destroyed or discarded, place a +1 power counter on one of your minions",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "IT'S ALIVE!",
+      "description": "Play an extra minion. Place a +1 power counter on it",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Überserum",
+      "description": "Play on a minion. Ongoing: At the start of your turn, place a +1 power counter on this minion. This minion cannot be destroyed",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 2
+    },
+    {
+      "name": "Angry Mob",
+      "description": "Choose one of your minions. Place any number of cards from your hand on the bottom of your deck. For each card you placed there, place a +1 power counter on that minion.",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Blitzed",
+      "description": "Remove any number of +1 power counters from your minions. Destroy a minion with power less than or equal to the number of counters you removed",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Body Shop",
+      "description": "Destroy one of your minions. Place a number of +1 power counters equal to that minion's power, split any way you choose, on your minions",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Grave Situation",
+      "description": "Play on a base. Ongoing: After one of your minions is destroyed here, place it into your hand instead of the discard pile",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "German Engineering",
+      "description": "Play on a base. Ongoing: After you play a minion here, place a +1 power counter on it",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Jolt",
+      "description": "Play a +1 power counter on each of your minions",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "factionName": "Fairies",
+  "factionId": 6,
+  "set": "PRETTY_PRETTY_SMASH_UP",
+  "minions": [
+    {
+      "name": "Titania",
+      "description": "Return an opponent's minion to its owner's hand, OR play an extra minion",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Glymmer",
+      "description": "Talent: Until the start of your next turn, either another minion has -4 power (minimum power 0), OR this minion has +1 power",
+      "power": 4,
+      "quantity": 2
+    },
+    {
+      "name": "Puck",
+      "description": "Play an extra action OR draw a card",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "Tinx",
+      "description": "You may transfer an action played on another minion to this one",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Daisy Chain",
+      "description": "Play on a minion. Ongoing: If you control this minion it has +2 power, otherwise it has -2 power",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 2
+    },
+    {
+      "name": "Leaf Armor",
+      "description": "Play on a minion. Ongoing: This minion has +1 power. Talent: Transfer this action to another minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 2
+    },
+    {
+      "name": "Enchantment",
+      "description": "Play on a base and choose one: Ongoing: All minions here have +1 power. OR Ongoing: All minions here have -1 power",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Fairy Ballet",
+      "description": "Draw two cards, OR draw a card and play an extra action",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Ladybug",
+      "description": "Play on a minion. Ongoing: This minion cannot be destroyed. Talent: Transfer this action to another minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    },
+    {
+      "name": "Magic Acorns",
+      "description": "Each other player discards a card at random, OR you draw a card and play an extra action",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Magic Wand",
+      "description": "Play on a base. Ongoing: Other players cannot play actions on this base or on minions here",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Playful Tricks",
+      "description": "Destroy up to 2 actions played on minions and/or bases",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

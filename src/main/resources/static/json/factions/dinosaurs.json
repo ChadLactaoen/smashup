@@ -1,0 +1,89 @@
+{
+  "factionName": "Dinosaurs",
+  "factionId": 4,
+  "set": "CORE",
+  "minions": [
+    {
+      "name": "King Rex",
+      "description": "",
+      "power": 7,
+      "quantity": 1
+    },
+    {
+      "name": "Laseratops",
+      "description": "Destroy a minion of power 4 or less on this base",
+      "power": 4,
+      "quantity": 2
+    },
+    {
+      "name": "Armor Stego",
+      "description": "Ongoing: Has +2 power during other players' turns",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "War Raptor",
+      "description": "Ongoing: Gains +1 power for each War Raptor on this base (including this one)",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Augmentation",
+      "description": "One minion gains +4 power until the end of your turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 2
+    },
+    {
+      "name": "Howl",
+      "description": "Each of your minions gains +1 power until the end of your turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Natural Selection",
+      "description": "Choose one of your minions on a base. Destroy a minion there with less power than yours",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Upgrade",
+      "description": "Play on a minion. Ongoing: This minion has +2 power",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    },
+    {
+      "name": "Tooth and Claw... and Guns",
+      "description": "Play on a minion. Ongoing: If an ability would affect this minion, destroy this card and the ability does not affect this minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    },
+    {
+      "name": "Survival of the Fittest",
+      "description": "Destroy the lowest-power minion (you choose in case of a tie) on each base with a higher-power minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Wildlife Preserve",
+      "description": "Play on a base. Ongoing: Your minions here are not affected by other players' actions",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Rampage",
+      "description": "Reduce the breakpoint of a base by the power of one of your minions on that base until the end of the turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

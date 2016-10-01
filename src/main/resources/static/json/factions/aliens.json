@@ -1,0 +1,89 @@
+{
+  "factionName": "Aliens",
+  "factionId": 1,
+  "set": "CORE",
+  "minions": [
+    {
+      "name": "Supreme Overlord",
+      "description": "You may return a minion to its owner's hand",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Invader",
+      "description": "Gain 1 VP",
+      "power": 3,
+      "quantity": 2
+    },
+    {
+      "name": "Scout",
+      "description": "Special: After this base scores, you may place this minion into your hand instead of the discard pile",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "Collector",
+      "description": "You may return a minion of power 3 or less on this base to its owner's hand",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Abduction",
+      "description": "Return a minion to its owner's hand. Play an extra minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Beam Up",
+      "description": "Return a minion to its owner's hand",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Crop Circles",
+      "description": "Choose a base. Return each minion on that base to its owner's hand",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Disintegrator",
+      "description": "Place a minion of power 3 or less on the bottom of its owner's deck",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Invasion",
+      "description": "Move a minion to another base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Jammed Signal",
+      "description": "Play on a base. Ongoing: All players ignore this base's ability",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Probe",
+      "description": "Look at another player's hand and choose a minion in it. That player discards that minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Terraforming",
+      "description": "Search the base deck for a base. Swap it with a base in play (discard all actions attached to it). Shuffle the base deck. You may play an extra minion on the new base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

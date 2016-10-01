@@ -1,0 +1,70 @@
+{
+  "factionName": "Robots",
+  "factionId": 18,
+  "set": "CORE",
+  "minions": [
+    {
+      "name": "Nukebot",
+      "description": "Ongoing: After this minion is destroyed, destroy each other player's minions on this base",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Warbot",
+      "description": "Ongoing: This minion cannot be destroyed",
+      "power": 4,
+      "quantity": 2
+    },
+    {
+      "name": "Hoverbot",
+      "description": "Reveal the top card of your deck. If it is a minion, you may play it as an extra minion. Otherwise, return it to the top of your deck",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "Zapbot",
+      "description": "You may play an extra minion of power 2 or less",
+      "power": 2,
+      "quantity": 4
+    },
+    {
+      "name": "Microbot Fixer",
+      "description": "If this is the first minion you played this turn, you may play an extra minion. Ongoing: Each of your Microbots gains +1 power",
+      "power": 1,
+      "quantity": 2
+    },
+    {
+      "name": "Microbot Guard",
+      "description": "Destroy a minion on this base with power less than the number of minions you have here",
+      "power": 1,
+      "quantity": 2
+    },
+    {
+      "name": "Microbot Reclaimer",
+      "description": "If this is the first minion you played this turn, you may play an extra minion. Shuffle any number of Microbots from your discard pile into your deck",
+      "power": 1,
+      "quantity": 2
+    },
+    {
+      "name": "Microbot Alpha",
+      "description": "Ongoing: Gains +1 power for each of your other Microbots. All of your minions are considered Microbots",
+      "power": 1,
+      "quantity": 1
+    },
+    {
+      "name": "Microbot Archive",
+      "description": "Ongoing: After one of your Microbots (including this one) is destroyed, draw a card",
+      "power": 1,
+      "quantity": 1
+    }
+  ],
+  "actions": [
+    {
+      "name": "Heirloom",
+      "description": "Play on a minion. Ongoing: This card gives this minion +1 power for each Heirloom on it. This card cannot be destroyed",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 2
+    }
+  ]
+}

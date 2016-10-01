@@ -1,0 +1,89 @@
+{
+  "factionName": "Ninjas",
+  "factionId": 15,
+  "set": "CORE",
+  "minions": [
+    {
+      "name": "Ninja Master",
+      "description": "You may destroy a minion on this base",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Tiger Assassin",
+      "description": "You may destroy a minion of power 3 or less on this base",
+      "power": 4,
+      "quantity": 2
+    },
+    {
+      "name": "Shinobi",
+      "description": "Special: Before a base scores, you may play this minion there. You can only use one Shinobi's ability per base",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "Ninja Acolyte",
+      "description": "Special: On your turn, if you have not yet played a minion, you may return this minion to your hand and play an extra minion on this base",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Infiltrate",
+      "description": "Play on a base. Destroy an action that has been played here. Ongoing: You may ignore this base's ability until the start of your next turn",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Seeing Stars",
+      "description": "Destroy a minion of power 3 or less",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Assassination",
+      "description": "Play on a minion. Ongoing: Destroy this minion at the end of the turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    },
+    {
+      "name": "Disguise",
+      "description": "Choose one or two of your minions on one base. Play an equal number of extra minions there, and return the chosen minions to your hand",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Hidden Ninja",
+      "description": "Special: Before a base scores, play a minion there",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Poison",
+      "description": "Play on a minion. Destroy any number of actions on it. Ongoing: This minion has -4 power. (Minions have minimum power of 0.)",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    },
+    {
+      "name": "Smoke Bomb",
+      "description": "Play on one of your minions. Ongoing: This minion is not affected by other players' actions. Destroy this card at the start of your turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    },
+    {
+      "name": "Way of Deception",
+      "description": "Move one of your minions to another base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

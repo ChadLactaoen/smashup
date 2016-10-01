@@ -1,0 +1,89 @@
+{
+  "factionName": "Kitty Cats",
+  "factionId": 11,
+  "set": "PRETTY_PRETTY_SMASH_UP",
+  "minions": [
+    {
+      "name": "Queen Fluffy",
+      "description": "Talent: Take control of a minion of power 3 or less until the end of the turn",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Whiskers",
+      "description": "Talent: Play an extra action. Destroy one of your minions",
+      "power": 4,
+      "quantity": 2
+    },
+    {
+      "name": "Muffin",
+      "description": "Take control of a minion of power 3 or less until the end of the turn",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "Mr. Grumpers",
+      "description": "Choose a minion. It has -2 power until the end of the turn",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Cat Fight",
+      "description": "Choose one of your minions. Draw cards equal to that minion's power. Destroy that minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Grumpiness",
+      "description": "Play on a minion. Ongoing: This minion has -2 power",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 2
+    },
+    {
+      "name": "Can Has Cheeseburger?",
+      "description": "Special: Before a base scores, take control of a minion there, of power 3 or less, until the end of the turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Cat's Paw",
+      "description": "Take control of a minion of power 5 or less until the end of the turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Hang in There",
+      "description": "Play on one of your minions. Ongoing: If this minion would be destroyed, move it to another base and destroy this action instead",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    },
+    {
+      "name": "Hissy Fit",
+      "description": "Play on a base. Ongoing: All other players' minions here have -1 power",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Invisible Bicycle",
+      "description": "Choose a base. Move any number of minions of power 2 or less from there to another base.",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Nine Lives",
+      "description": "Destroy one of your minions. Play an extra minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

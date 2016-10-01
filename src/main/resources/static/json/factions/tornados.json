@@ -1,0 +1,89 @@
+{
+  "factionName": "Tornados",
+  "factionId": 25,
+  "set": "ITS_YOUR_FAULT",
+  "minions": [
+    {
+      "name": "Monster Tornado",
+      "description": "Talent: Move a minion of power 4 or less from here to another base, or from another base to here",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Cyclone",
+      "description": "Talent: Move this minion to another base",
+      "power": 4,
+      "quantity": 2
+    },
+    {
+      "name": "Twister",
+      "description": "You may move a minion of power 3 or less from here to another base, or from another base to here",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "Dust Devil",
+      "description": "Special: Before a base scores, you may move this minion to there",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Carried Away",
+      "description": "Move a minion to another base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Trade Winds",
+      "description": "Choose two minions of power 3 or less. Move each one to the other's base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Gone with the Wind",
+      "description": "Special: Play after a base scores. You may move one of your minions from there to another base instead of the discard pile",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Not in Kansas",
+      "description": "Destroy a base and any actions played on it or on minions there. Replace it with the top card of the base deck. All minions from the original base remain",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Over the Rainbow",
+      "description": "Special: Play before a base scores. Move one of your minions from another base to there",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Picked Up",
+      "description": "Special: Play before a base scores. Move a minion from there to another base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Ripped Off",
+      "description": "Transfer an action played on a base to another base or on a minion to another minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Whirlwinds",
+      "description": "You may move any number of your minions to other bases",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

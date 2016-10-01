@@ -1,0 +1,89 @@
+{
+  "factionName": "Pirates",
+  "factionId": 16,
+  "set": "CORE",
+  "minions": [
+    {
+      "name": "Pirate King",
+      "description": "Special: Before a base scores, you may move this minion there",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Buccaneer",
+      "description": "Special: If this minion would be destroyed, move it to another base instead",
+      "power": 4,
+      "quantity": 2
+    },
+    {
+      "name": "Saucy Wench",
+      "description": "You may destroy a minion of power 2 or less on this base",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "First Mate",
+      "description": "Special: After this base is scored, you may move this minion to another base instead of the discard pile",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Broadside",
+      "description": "Destroy all of one player's minions of power 2 or less on a base where you have a minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Dinghy",
+      "description": "Move up to two of your minions to other bases",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Cannon",
+      "description": "Destroy up to two minions of power 2 or less",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Full Sail",
+      "description": "Move any number of your minions to other bases. Special: Before a base scores, you may play this card",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Powderkeg",
+      "description": "Destroy one of your minions and all minions with equal or less power on the same base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Shanghai",
+      "description": "Move another player's minion to another base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Sea Dogs",
+      "description": "Name a faction. Move all other players' minions of that faction from one base to another",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Swashbuckling",
+      "description": "Each of your minions gains +1 power until the end of the turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

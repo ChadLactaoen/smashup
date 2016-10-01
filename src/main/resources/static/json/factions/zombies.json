@@ -1,0 +1,89 @@
+{
+  "factionName": "Zombies",
+  "factionId": 30,
+  "set": "CORE",
+  "minions": [
+    {
+      "name": "Zombie Lord",
+      "description": "You may play an extra minion of power 2 or less from your discard pile on each base where you have no minions",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Grave Digger",
+      "description": "You may place a minion from your discard pile into your hand",
+      "power": 4,
+      "quantity": 2
+    },
+    {
+      "name": "Tenacious Z",
+      "description": "Special: During your turn you may play this card from your discard pile as an extra minion. You may only use the ability of one Tenacious Z each turn",
+      "power": 2,
+      "quantity": 3
+    },
+    {
+      "name": "Walker",
+      "description": "Look at the top card of your deck. Discard it or return it to the top of your deck",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Grave Robbing",
+      "description": "Place a card from your discard pile into your hand",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "They Keep Coming",
+      "description": "Play an extra minion from your discard pile",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Lend a Hand",
+      "description": "Shuffle any number of cards from your discard pile into your deck",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Mall Crawl",
+      "description": "Search your deck for any number of cards with the same name and place them into your discard pile. Shuffle your deck",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Not Enough Bullets",
+      "description": "Place any number of minions with the same name from your discard pile into your hand",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Outbreak",
+      "description": "Play an extra minion on a base where you have no minions",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Overrun",
+      "description": "Play on a base. Ongoing: Other players cannot play minions on this base. Destroy this action at the start of your turn",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "They're Coming To Get You",
+      "description": "Play on a base. Ongoing: On your turn, you may play a minion here from your discard pile instead of from your hand",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

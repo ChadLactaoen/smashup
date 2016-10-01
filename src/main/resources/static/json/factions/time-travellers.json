@@ -1,0 +1,89 @@
+{
+  "factionName": "Time Travellers",
+  "factionId": 24,
+  "set": "SCIENCE_FICTION_DOUBLE_FEATURE",
+  "minions": [
+    {
+      "name": "Doctor When",
+      "description": "You may return another of your minions in play to your hand. You may play it again as an extra minion",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Repeater Perfect",
+      "description": "Place an action from your discard pile on top of your deck",
+      "power": 4,
+      "quantity": 2
+    },
+    {
+      "name": "Time Raider",
+      "description": "Talent: Place a card from your discard pile on the bottom of your deck",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "Jumper",
+      "description": "Ongoing: When this minion goes to the discard pile (from play), you may place it back into your hand",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Do Over!",
+      "description": "Return your minion from a base to your hand. You may play it again as an extra minion.",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Into the Time Slip",
+      "description": "Return a card in play to its owner's hand",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "1.21 Gigawatts",
+      "description": "Shuffle all actions or all minions from your discard pile into your deck",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "It's Astounding",
+      "description": "Play an action from your discard pile as an extra action",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Stasis Field",
+      "description": "Play on a base. Ongoing: This base cannot score. Destroy this action at the start of your turn",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Time is Fleeting",
+      "description": "Play after a base scores if there is a base in the discard pile. Add a base of your choice from the discard pile instead of drawing a new base from the base deck",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Time Walk",
+      "description": "You may play an extra minion and an extra action this turn. Draw 2 cards. Place this card on the bottom of your deck instead of your discard pile",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Wormhole",
+      "description": "Special: Play after a base scores. Shuffle your minions there into your deck instead of placing them in the discard pile",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

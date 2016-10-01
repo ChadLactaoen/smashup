@@ -1,0 +1,89 @@
+{
+  "factionName": "Cyborg Apes",
+  "factionId": 3,
+  "set": "SCIENCE_FICTION_DOUBLE_FEATURE",
+  "minions": [
+    {
+      "name": "Cyberback",
+      "description": "Ongoing: You may play actions onto this minion from your discard pile instead of from your hand",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Clyde 2.0",
+      "description": "Ongoing: If your actions played on minions here go to the discard pile, you may place them into your hand instead",
+      "power": 4,
+      "quantity": 2
+    },
+    {
+      "name": "Baboom",
+      "description": "Talent: Play an action on this minion as an extra action",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "Furious George",
+      "description": "Ongoing: Has +1 power for each action played on it",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Cyberevolution",
+      "description": "Play on a minion. Ongoing: This minion has +3 power",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 2
+    },
+    {
+      "name": "Flying Monkey",
+      "description": "Play on a minion. Special: After this base scores, you may move this minion to another base instead of the discard pile. Destroy this action",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    },
+    {
+      "name": "Going Bananas",
+      "description": "Choose a base. Destroy other players' actions played on that base and on minions there",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Juiced Up",
+      "description": "Play on a minion. Ongoing: This minion has +2 power for each action on it (including this one)",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    },
+    {
+      "name": "Missing Uplink",
+      "description": "Play on your minion. Ongoing: Draw an additional card at the end of your turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    },
+    {
+      "name": "Monkey on Your Back",
+      "description": "Play on your minion. Talent: Destroy another player's minion here of power 4 or less. Place this card on the bottom of your deck",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    },
+    {
+      "name": "Monkey See, Monkey Do",
+      "description": "Reveal the top 5 cards of your deck. Place any number of actions revealed into your hand. Shuffle the rest into your deck",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Shielding",
+      "description": "Play on a minion. Ongoing: This minion and other actions on it are not affected by other players' actions",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 2
+    }
+  ]
+}

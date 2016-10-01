@@ -1,0 +1,89 @@
+{
+  "factionName": "Bear Cavalry",
+  "factionId": 2,
+  "set": "AWESOME_LEVEL_9000",
+  "minions": [
+    {
+      "name": "General Ivan",
+      "description": "Ongoing: Your minions cannot be destroyed",
+      "power": 6,
+      "quantity": 1
+    },
+    {
+      "name": "Polar Commando",
+      "description": "Ongoing: If this is your only minion on this base, it has +2 power and cannot be destroyed",
+      "power": 4,
+      "quantity": 2
+    },
+    {
+      "name": "Bear Cavalry",
+      "description": "Move another player's minion from here to another base",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "Cub Scout",
+      "description": "Ongoing: After another players minion moves here, if it has less power than this minion, destroy it",
+      "power": 3,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bear Hug",
+      "description": "Each other player destroys his or her minion with the least power (owner chooses in case of ties)",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Bear Necessities",
+      "description": "Destroy an action that has been played on a minion or base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Bear Rides You",
+      "description": "Move one of your minions to another base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Commission",
+      "description": "Play an extra minion. Then move another player's minion from the extra minion's base to another base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "High Ground",
+      "description": "Play on a base. Ongoing: If you have a minion here, destroy any other player's minion that moves here",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Superiority",
+      "description": "Play on a base. Ongoing: Your minions here cannot be destroyed, moved, or returned to your hand or deck by other players' cards",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "You're Pretty Much Borscht",
+      "description": "Choose a base where you have a minion. Move all other players' minions from there to one other base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "You're Screwed",
+      "description": "Choose a base where you have a minion. Move another player's minion from there to another base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    }
+  ]
+}

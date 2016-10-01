@@ -1,0 +1,89 @@
+{
+  "factionName": "Werewolves",
+  "factionId": 28,
+  "set": "MONSTER_SMASH",
+  "minions": [
+    {
+      "name": "Pack Alpha",
+      "description": "Special: Before this base scores, each of your minions here gains +1 power until the end of the turn",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Loup Garou",
+      "description": "Special: Before this base scores, this minion gains +2 power until the end of the turn",
+      "power": 4,
+      "quantity": 2
+    },
+    {
+      "name": "Teenage Wolf",
+      "description": "Talent: This minion gains +1 power until the end of the turn",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "Howler",
+      "description": "This minion gains +2 power until the end of the turn",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Chew Toy",
+      "description": "Choose one of your minions. Destroy a minion with lower power at your minion's base",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Frenzy",
+      "description": "Each of your minions with power 4 or more gains +1 power until the end of the turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Full Moon",
+      "description": "Play on a base. Ongoing: Each of your minions here has +1 power",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Leader of the Pack",
+      "description": "Play on a minion. Talent: If this minion has the highest power here, you may play an extra action",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    },
+    {
+      "name": "Let the Dog Out",
+      "description": "Choose one of your minions. Destroy any number of minions at your minion's base whose total power is less than or equal to your minion's power",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Marking Territory",
+      "description": "Play on a base. Ongoing: At the start of your turn, if you have more total power here than each other player, reduce this base's breakpoint to zero",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Unstoppable",
+      "description": "Play on a minion. Ongoing: This minion cannot be destroyed",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    },
+    {
+      "name": "Moontouched",
+      "description": "Play on a minion. Talent: If this minion has the highest power here, draw a card",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    }
+  ]
+}

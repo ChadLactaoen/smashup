@@ -1,0 +1,89 @@
+{
+  "factionName": "Shapeshifters",
+  "factionId": 19,
+  "set": "SCIENCE_FICTION_DOUBLE_FEATURE",
+  "minions": [
+    {
+      "name": "Doppelgänger",
+      "description": "Special: When this minion goes to the discard pile from a base, search your deck for a minion and play it as an extra minion. Shuffle your deck",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "G.E.L.F.",
+      "description": "Talent: Search your deck for a non-G.E.L.F. minion of power 4 or less. Shuffle this minion into your deck and play that minion here as an extra minion",
+      "power": 4,
+      "quantity": 2
+    },
+    {
+      "name": "Mimic",
+      "description": "Ongoing: This minion's power is equal to the highest power printed on a minion card in play",
+      "power": 0,
+      "quantity": 3
+    },
+    {
+      "name": "Copycat",
+      "description": "Choose another player's minion in play. This card has the same ability as that minion until the end of the turn",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Genetic Shift",
+      "description": "Either each of your minions gets +1 power until the end of the turn, or one of your minions gets +3 power until the end of the turn, your choice",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Transmogrify",
+      "description": "Destroy one of your minions. Search your deck for a minion with the same or lower power and play it as an extra minion. Shuffle your deck",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "... Really?",
+      "description": "Destroy one of your minions. Play an extra minion from your discard pile with the same or lower power",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Bacta the Future",
+      "description": "Destroy a minion. That minion's owner may immediately play an extra minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Mitosis",
+      "description": "Choose your minion in play. Play a copy of that card from your hand as an extra minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Cellular Bonding",
+      "description": "Play on a minion. Choose an action on a minion. Ongoing: This card has the abilities of the chosen action",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    },
+    {
+      "name": "Shell Game",
+      "description": "Play on a minion. Ongoing: This minion cannot be destroyed",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    },
+    {
+      "name": "Splice as Nice",
+      "description": "Play on a minion. Ongoing: This minion has +2 power",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    }
+  ]
+}

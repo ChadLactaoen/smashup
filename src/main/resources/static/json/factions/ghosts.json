@@ -1,0 +1,89 @@
+{
+  "factionName": "Ghosts",
+  "factionId": 8,
+  "set": "AWESOME_LEVEL_9000",
+  "minions": [
+    {
+      "name": "Spectre",
+      "description": "Special: If you have 2 or fewer cards in you hand, any time you can play a minion, you can play this card from you discard pile instead",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Haunting",
+      "description": "Ongoing: If you have two or fewer cards in your hand, this minion has +3 power and is not affected by other players' cards",
+      "power": 3,
+      "quantity": 2
+    },
+    {
+      "name": "Spirit",
+      "description": "Choose a minion. You may discard cards equal to its power to destroy it",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "Ghost",
+      "description": "You may discard a card from your hand",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Ghostly Arrival",
+      "description": "You may play an extra minion and/or extra action",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Incorporeal",
+      "description": "Play on one of your minions. Ongoing: This minion is not affected by other players' cards",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 2
+    },
+    {
+      "name": "Across the Divide",
+      "description": "Choose a card name. Place any number of minions with that name from your discard pile into your hand",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Door to the Beyond",
+      "description": "Play on a base. Ongoing: If you have two or fewer cards in your hand, each of your minions here has +2 power",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Make Contact",
+      "description": "You can only play this card if it is the last card in your hand. Play on a minion. Ongoing: Treat this minion as yours while it and this card are in play",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": true,
+      "quantity": 1
+    },
+    {
+      "name": "Séance",
+      "description": "If you have 2 or fewer cards in your hand, draw until you have 5 cards",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Shady Deal",
+      "description": "If you have two or fewer cards in your hand, gain 1 VP",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "The Dead Rise",
+      "description": "Discard any number of cards. Play an extra minion from your discard pile with power less than the number of cards you discarded",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

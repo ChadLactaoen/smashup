@@ -1,0 +1,184 @@
+{
+  "factions": [
+    {
+      "id": 1,
+      "name": "Aliens",
+      "minionCount": 10,
+      "minionPower": 2.8
+    },
+    {
+      "id": 2,
+      "name": "Bear Cavalry",
+      "minionCount": 10,
+      "minionPower": 3.5
+    },
+    {
+      "id": 3,
+      "name": "Cyborg Apes",
+      "minionCount": 10,
+      "minionPower": 3
+    },
+    {
+      "id": 4,
+      "name": "Dinosaurs",
+      "minionCount": 10,
+      "minionPower": 3.2
+    },
+    {
+      "id": 5,
+      "name": "Dragons",
+      "minionCount": 10,
+      "minionPower": 3
+    },
+    {
+      "id": 6,
+      "name": "Fairies",
+      "minionCount": 10,
+      "minionPower": 3
+    },
+    {
+      "id": 7,
+      "name": "Geeks",
+      "minionCount": 9,
+      "minionPower": 2.78
+    },
+    {
+      "id": 8,
+      "name": "Ghosts",
+      "minionCount": 10,
+      "minionPower": 2.8
+    },
+    {
+      "id": 9,
+      "name": "Giant Ants",
+      "minionCount": 10,
+      "minionPower": 1.3
+    },
+    {
+      "id": 10,
+      "name": "Killer Plants",
+      "minionCount": 10,
+      "minionPower": 3.2
+    },
+    {
+      "id": 11,
+      "name": "Kitty Cats",
+      "minionCount": 10,
+      "minionPower": 3
+    },
+    {
+      "id": 12,
+      "name": "Mad Scientists",
+      "minionCount": 10,
+      "minionPower": 3
+    },
+    {
+      "id": 13,
+      "name": "Mythic Greeks",
+      "minionCount": 10,
+      "minionPower": 3
+    },
+    {
+      "id": 14,
+      "name": "Mythic Horses",
+      "minionCount": 10,
+      "minionPower": 3
+    },
+    {
+      "id": 15,
+      "name": "Ninjas",
+      "minionCount": 10,
+      "minionPower": 3
+    },
+    {
+      "id": 16,
+      "name": "Pirates",
+      "minionCount": 10,
+      "minionPower": 3
+    },
+    {
+      "id": 17,
+      "name": "Princesses",
+      "minionCount": 6,
+      "minionPower": 5
+    },
+    {
+      "id": 18,
+      "name": "Robots",
+      "minionCount": 18,
+      "minionPower": 2.11
+    },
+    {
+      "id": 19,
+      "name": "Shapeshifters",
+      "minionCount": 10,
+      "minionPower": 2.1
+    },
+    {
+      "id": 20,
+      "name": "Sharks",
+      "minionCount": 10,
+      "minionPower": 3
+    },
+    {
+      "id": 21,
+      "name": "Steampunks",
+      "minionCount": 10,
+      "minionPower": 3
+    },
+    {
+      "id": 22,
+      "name": "Super Heroes",
+      "minionCount": 9,
+      "minionPower": 3.33
+    },
+    {
+      "id": 23,
+      "name": "Super Spies",
+      "minionCount": 10,
+      "minionPower": 3
+    },
+    {
+      "id": 24,
+      "name": "Time Travellers",
+      "minionCount": 10,
+      "minionPower": 3
+    },
+    {
+      "id": 25,
+      "name": "Tornados",
+      "minionCount": 10,
+      "minionPower": 3
+    },
+    {
+      "id": 26,
+      "name": "Tricksters",
+      "minionCount": 10,
+      "minionPower": 3
+    },
+    {
+      "id": 27,
+      "name": "Vampires",
+      "minionCount": 10,
+      "minionPower": 3
+    },
+    {
+      "id": 28,
+      "name": "Werewolves",
+      "minionCount": 10,
+      "minionPower": 3
+    },
+    {
+      "id": 29,
+      "name": "Wizards",
+      "minionCount": 10,
+      "minionPower": 2.4
+    },
+    {
+      "id": 30,
+      "name": "Zombies",
+      "minionCount": 10,
+      "minionPower": 2.7
+    }
+  ]
+}

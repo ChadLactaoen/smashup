@@ -1,0 +1,89 @@
+{
+  "factionName": "Wizards",
+  "factionId": 29,
+  "set": "CORE",
+  "minions": [
+    {
+      "name": "Archmage",
+      "description": "Ongoing: You may play an extra action on each of your turns",
+      "power": 4,
+      "quantity": 1
+    },
+    {
+      "name": "Chronomage",
+      "description": "You may play an extra action this turn",
+      "power": 3,
+      "quantity": 2
+    },
+    {
+      "name": "Enchantress",
+      "description": "Draw a card",
+      "power": 2,
+      "quantity": 3
+    },
+    {
+      "name": "Neophyte",
+      "description": "Reveal the top card of your deck. If it is an action, you may place it in your hand or play it as an extra action. Otherwise, return it to the top of your deck",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "Mystic Studies",
+      "description": "Draw two cards",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Summon",
+      "description": "Play an extra minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Mass Enchantment",
+      "description": "Reveal the top card of each other player's deck. Play one revealed action as an extra action. Return unused cards to the top of their decks",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Portal",
+      "description": "Reveal the top five cards of your deck. Place any number of minions revealed into your hand. Return the other cards to the top of your deck in any order",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Sacrifice",
+      "description": "Choose one of your minions. Draw cards equal to its power. Destroy that minion",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Scry",
+      "description": "Search your deck for an action and reveal it to all players. Place it into your hand and shuffle your deck",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Time Loop",
+      "description": "Play two extra actions",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Winds of Change",
+      "description": "Shuffle your hand into your deck and draw five cards. You may play an extra action",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

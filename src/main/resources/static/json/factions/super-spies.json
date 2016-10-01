@@ -1,0 +1,89 @@
+{
+  "factionName": "Super Spies",
+  "factionId": 23,
+  "set": "SCIENCE_FICTION_DOUBLE_FEATURE",
+  "minions": [
+    {
+      "name": "Secret Agent",
+      "description": "Ongoing: After another player plays an action, he or she must discard a card",
+      "power": 5,
+      "quantity": 1
+    },
+    {
+      "name": "Mole",
+      "description": "Ongoing: Before this base scores, you may play an action as a Special action",
+      "power": 4,
+      "quantity": 2
+    },
+    {
+      "name": "Operative",
+      "description": "Reveal the top card of each player's deck. Place any of those cards on the bottom of their owner's deck. Return the other cards to the top of their decks",
+      "power": 3,
+      "quantity": 3
+    },
+    {
+      "name": "Spy",
+      "description": "Look at the top 3 cards of your deck. Place them on the top and/or bottom of your deck in any order",
+      "power": 2,
+      "quantity": 4
+    }
+  ],
+  "actions": [
+    {
+      "name": "For My Eyes Only",
+      "description": "Look at the top 5 cards of your deck. Place them on the top and/or bottom of your deck in any order",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "The Spy Who Ditched Me",
+      "description": "All other players must discard a minion or reveal their hand to show they have no minions",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 2
+    },
+    {
+      "name": "Discards Are Forever",
+      "description": "All players reveal cards from their decks until they reveal a minion. Discard all revealed cards",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "From Q With Love",
+      "description": "Draw three cards. Discard two cards",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Live and Let Chum",
+      "description": "Special: Play before a base scores. Destroy a minion of power 3 or less there",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Mindraker",
+      "description": "Play on a base. Ongoing: Other players cannot play Specials while this base is scoring",
+      "canBePlayedOnBase": true,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "Permit to Kill",
+      "description": "Each other player reveals the top two cards of his or her deck and discards any minions revealed. Return the other cards on the top of the deck in any order",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    },
+    {
+      "name": "The Base Is Not Enough",
+      "description": "Special: Play before a base scores. Choose a minion there of power 4 or less. You control that minion until the end of the turn",
+      "canBePlayedOnBase": false,
+      "canBePlayedOnMinion": false,
+      "quantity": 1
+    }
+  ]
+}

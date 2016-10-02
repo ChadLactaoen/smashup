@@ -30,7 +30,11 @@ public enum Faction {
     VAMPIRES(27, "Vampires", Set.MONSTER_SMASH, "c03c42"),
     WEREWOLVES(28, "Werewolves", Set.MONSTER_SMASH, "af9c85"),
     WIZARDS(29, "Wizards", Set.CORE, "844b9c"),
-    ZOMBIES(30, "Zombies", Set.CORE, "c8e09a");
+    ZOMBIES(30, "Zombies", Set.CORE, "c8e09a"),
+    IGNOBLES(31, "Ignobles", Set.CEASE_AND_DESIST, "aaaaaa"),
+    STAR_ROAMERS(32, "Star Roamers", Set.CEASE_AND_DESIST, "85699a"),
+    CHANGERBOTS(33, "Changerbots", Set.CEASE_AND_DESIST, "c4803f"),
+    ASTROKNIGHTS(34, "Astroknights", Set.CEASE_AND_DESIST, "c4b5bc");
 
     private final int factionId;
     private final String name;

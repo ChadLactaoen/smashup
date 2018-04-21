@@ -41,7 +41,6 @@ $('#confirm-screen').on('click', '#start-game-btn', function() {
             setBases(data.bases);
             setHands(data.player1, data.player2);
             setFactionFlags(factionColors, factionUrls, factionNames);
-            console.log(data);
         }, error: function() {
             console.log("Error in initializing game.");
         }
